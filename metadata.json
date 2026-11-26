@@ -1,0 +1,6 @@
+{
+  "name": "AirClime",
+  "description": "Global environmental intelligence platform for real-time air quality, weather analytics, interactive earth mapping, storm radar, city comparison, sustainable guidance, and Atmos AI.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

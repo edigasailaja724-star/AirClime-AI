@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AirClime — Environmental Intelligence Platform</title>
+    <meta name="description" content="Real-time air quality monitoring, weather analytics, interactive EarthScope maps, storm radar, multi-city comparison, and AirClime-ai environmental assistant." />
+    <meta property="og:title" content="AirClime — Environmental Intelligence Platform" />
+    <meta property="og:description" content="Real-time air quality monitoring, weather analytics, interactive EarthScope maps, storm radar, multi-city comparison, and AirClime-ai environmental assistant." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preload" as="image" href="/assets/airclime-circle.webp" type="image/webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      @keyframes airclimePulse {
+        0%, 100% { transform: scale(1); box-shadow: 0 8px 24px -6px rgba(14, 165, 233, 0.28); }
+        50% { transform: scale(1.04); box-shadow: 0 12px 30px -6px rgba(16, 185, 129, 0.38); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div style="min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#ffffff;padding:24px;font-family:system-ui,-apple-system,sans-serif;text-align:center;">
+        <picture style="display:inline-block;border-radius:9999px;animation:airclimePulse 2.2s ease-in-out infinite;">
+          <source srcset="/assets/airclime-circle.webp" type="image/webp" />
+          <img src="/assets/airclime-circle.png" alt="AirClime Circular Emblem" width="96" height="96" style="width:96px;height:96px;border-radius:9999px;object-fit:contain;display:block;" />
+        </picture>
+        <div style="margin-top:14px;font-size:24px;font-weight:700;letter-spacing:-0.02em;line-height:1.1;">
+          <span style="color:#0B4B94;">Air</span><span style="color:#0F7A3E;">Clime</span>
+        </div>
+        <p style="margin-top:6px;font-size:12px;font-weight:500;color:#475569;letter-spacing:0.02em;">Breathe Better • Together</p>
+        <p style="margin-top:14px;font-size:12px;color:#64748b;">Loading live environmental intelligence...</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
