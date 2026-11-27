@@ -223,7 +223,7 @@ export function classifyGeminiError(err: unknown): ClassifiedGeminiError {
       retryable: false,
       upstreamStatus,
       userMessage:
-        'AirClime-ai could not authenticate with the Gemini API. Please check your GEMINI_API_KEY configuration in Settings > Secrets. All other AirClime modules remain active.',
+        'AirClime-ai could not authenticate with the Gemini API. Please try again in a moment. All other AirClime modules remain active.',
     };
   }
 
