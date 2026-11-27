@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@google/genai": "^3.6.1",
+    "@netlify/server": "^0.1.6",
     "@tailwindcss/vite": "^4.3.3",
     "@types/leaflet": "^1.9.23",
     "@vitejs/plugin-react": "^6.1.1",
@@ -28,14 +29,14 @@
     "vite": "^8.3.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.27.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",
-    "typescript": "^7.0.2",
-    "@types/express": "^4.17.21"
+    "typescript": "^7.0.2"
   }
 }
